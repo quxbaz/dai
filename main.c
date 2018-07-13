@@ -47,7 +47,6 @@ int init_game () {
   return 0;
 }
 
-
 void run_game_loop (SDL_Renderer* renderer) {
   bool should_run_game = true;
   SDL_Event event;
@@ -65,6 +64,7 @@ void run_game_loop (SDL_Renderer* renderer) {
         }
       }
     }
+
     // Render view
     SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
     SDL_RenderClear(renderer);
