@@ -84,7 +84,7 @@ void quit_sdl (SDL_Window* window) {
   SDL_Quit();
 };
 
-int main (int argc, char* args[]) {
+int main (int argc, char* argv[]) {
   /*
     Return 0 for success, else return error code > 0.
   */
